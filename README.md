@@ -58,29 +58,7 @@ L'application intègre une monnaie virtuelle interne appelée **"Coins"** pour r
 
 ---
 
-## Architecture & Fonctionnement
 
-### Architecture Globale
-L'application repose sur une architecture client-serveur locale. L'utilisateur interagit avec l'IHM Swing (sur la machine cliente), qui communique directement avec la base de données MySQL via le driver JDBC.
-
-### Zoning de l'Interface
-L'application est découpée de manière ergonomique et standardisée :
-- **Barre supérieure (Navbar)** : Commune à tous les espaces, elle contient trois boutons de navigation : *Boutique*, *Votre Espace*, et *Déconnexion*.
-- **Zone Principale (Boutique)** : Affiche le Panier à gauche et le Catalogue filtrable au centre. Si le compte est Administrateur, un panneau d'actions de gestion s'affiche sur la droite.
-- **Zone Espace Personnel (Votre Espace)** : Sépare distinctement les produits achetés des produits en cours de location.
-
----
-
-## Technologies utilisées
-
-- **Java** — Langage de programmation orienté objet (Logique métier).
-- **Java Swing** — Bibliothèque pour le développement de l'interface graphique (IHM).
-- **MySQL** — Système de gestion de base de données relationnelle.
-- **JDBC (Java Database Connectivity)** — API de connexion entre Java et la base de données.
-- **Eclipse IDE** — Environnement de développement principal.
-- **MAMP / Laragon** — Environnements de serveurs locaux pour l'hébergement MySQL.
-
----
 
 ## La base de données
 
